@@ -1,0 +1,77 @@
+/* Decorating navigation bar */
+nav{
+    background-color:#F6F6F6;
+    font-family:cursive;
+    font-size:larger;
+}
+
+/* Decorating unordered list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+/* Decorating navigation bar interval */
+li {   
+    float:right;
+    padding-left: 100px;
+    margin-right: -50px;
+}
+
+/* Decorating navigation bar font  */
+li a {
+    display: block;
+    color: #417d33;
+    text-align: center;
+    padding: 18px 70px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+
+#logo {
+margin-right: 10px;
+position:absolute; 
+top: 10px; 
+left: 20px;
+background-color:F6F6F6; 
+}
+
+#wrapper{
+    width:100%;
+    top: 0px auto; 
+    left: 0px auto;
+}
+
+/* Decorating main */
+main{
+    text-align: center;
+    background-color:#5A3082;
+    font-family:cursive;
+    font-size:larger;
+}
+
+/* Decorating div */
+div{
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    background-color:#F6F6F6 
+}
+
+div{
+    text-align: center; 
+    margin: 0 10px; 
+    font-family:cursive;
+    font-size:larger;
+    color:blue
+}
+
+div{
+    max-width: 100%;
+    height: auto;
+}

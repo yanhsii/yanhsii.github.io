@@ -1,0 +1,183 @@
+/* wenbin css */
+table{
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 8px;
+    border:1px solid;
+    text-align: left;
+    font-family: sans-serif;
+    
+}
+tr:nth-child(even){
+    background-color: #F0F0F0;
+    color:#1e6d0c;
+
+}
+tr:nth-child(odd){
+    background-color: #5A3082;
+    color: #F0F0F0;
+}
+.weekly-table{
+    width:1100px;
+    height:400px;
+    padding-left: 50px;
+    display:flex;
+
+}
+.weekly-image{
+    float:left;
+}
+
+.monthly-image{
+    float:right;
+}
+.monthly-table{
+    width:1100px;
+    height:420px;
+    padding-right: 50px;
+    display:flex;
+}
+.delivery{
+    display:flex;
+}
+.delivery-text{
+    background-color: #F0F0F0;
+    font-size:170%;
+    color:#417d33;
+    
+}
+#box{
+    margin-left: 50px;
+}
+.big-title{
+    color: #224819;
+    padding-bottom: px;
+    font-size: 200%;
+}
+.wongyong{
+    display:flex;
+}
+.eitherway{
+    float:right;
+
+}
+li a:hover{
+    background-color: aliceblue;
+}
+iframe{
+    margin-left:16%;
+}
+*{
+    font-family:cursive;
+}
+
+/* Decorating navigation bar */
+nav{
+    background-color:#ddecd2;
+    font-size:larger;
+}
+
+/* Decorating unordered list */
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+/* Decorating navigation bar interval */
+#navigation li {   
+    float:right;
+    padding-left: 100px;
+    margin-right: -50px;
+}
+
+/* Decorating navigation bar font  */
+li a {
+    display: block;
+    color: #224819;
+    text-align: center;
+    padding: 18px 70px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+h1{
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#224819;
+}
+
+body #logo {
+    margin-right: 10px;
+    position:absolute; 
+    top: 10px; 
+    left: 20px;
+    background-color:#ddecd2;
+}
+
+
+body{
+    background-color:#ddecd2;
+}
+
+.wrapper{
+    width:100%;
+    top: 0px auto; 
+    left: 0px auto;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #417d33;
+    color: #fff;;
+    line-height: 90%;
+}
+
+.footer-content {
+    margin-left: 20px;
+    padding-right: 10%;
+    flex-grow: 1;
+}
+
+#email{
+    display: flex;
+    background-color: #417d33;
+    color: #fff;;
+    text-align: left;
+}
+
+.footer-social {
+    margin-right: 20px;
+    text-align: left;
+    display: flex;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer  li {
+    display: flex;
+    margin-right: 10px; 
+}
+
+.footer-social a {
+    color: #ffffff;
+    padding-right: 0%;
+    text-decoration: underline;
+}
+
+.copyright{
+    font-style: italic;
+}
+
+.active1,
+.active2,
+.active3 {
+    background-color: aliceblue;
+}
