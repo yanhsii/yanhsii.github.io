@@ -1,0 +1,437 @@
+*{
+    font-family:cursive;
+}
+
+img {
+    border-radius: 8px;
+  }
+
+.logo{
+    padding-left: 20px;
+}
+/* Decorating navigation bar */
+nav{
+    background-color:#ddecd2;
+    font-size:larger;
+}
+
+/* Decorating unordered list */
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding:0px;
+    overflow: hidden;
+    display: flex;
+    margin-left: 120px;
+
+}
+
+/* Decorating navigation bar interval */
+.navigation li {   
+    float:right;
+    padding-left: 35px;
+    margin-right: -50px;
+    
+}
+
+/* Decorating navigation bar font  */
+nav li a {
+    display: block;
+    color: #224819;
+    text-align: center;
+    padding: 18px 70px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav li a:hover{
+    background-color: aliceblue;
+}
+
+/* Styling for visited links */
+nav li a:visited {
+    color: #4a6943; /* Color for visited links */
+}
+
+body .logo {
+    margin-right: 10px;
+    position:absolute; 
+    top: 10px; 
+    left: 20px;
+    background-color:#ddecd2;
+}
+
+body{
+    background-color:#ddecd2;
+}
+
+main{
+    background-size: auto;
+    box-shadow: #1e6d0c 0px 2px 10px;
+}
+
+.wrapper{
+    width:100%;
+    top: 0px auto; 
+    left: 0px auto;
+}
+
+h1{
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#224819;
+    display: flex;
+}
+
+span{
+    background-color:#fffae7;
+    box-shadow: #224819 0px 2px 5px;
+    
+}
+
+.background{
+    background-image: url(Image/background3.jpg);
+    box-shadow: #80c271 3px 3px 3px 3px;
+}
+
+.service {
+    display:flex;
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+
+.service a{
+    text-decoration:none;
+}
+
+#meal1 {
+    flex: 0 0 25%; 
+    margin-left:5px;
+}
+
+.box-right{
+    background-color: #fffae7;
+    font-size:large;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+    display: flex;
+}
+
+.box-right h2{
+    color:#5A3082;
+
+}
+ 
+.meallist{
+    color:#417d33;
+    margin-left: 10px;
+}
+
+.box-right p{
+    padding-left: 100px;
+    color:#417d33;
+}
+
+.services2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box-left{
+    background-color: #fffae7;
+    font-size:large;
+    display:flex;
+    padding-right: 10px;;
+    margin-right: 10px;
+}
+
+.box-left h2{
+    color:#5A3082;
+
+}
+
+.box-left p{
+    color:#417d33;
+    padding-left: 10px;
+    text-align: left;
+}
+
+#headerli{
+    list-style: none;
+}
+
+.video{
+    background-color: white;
+}
+
+iframe{
+    margin-left:16%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #417d33;
+    color: #fff;;
+    line-height: 90%;
+}
+
+.footer-content {
+    margin-left: 20px;
+    padding-right: 10%;
+    flex-grow: 1;
+}
+
+.footer-social {
+    margin-right: 20px;
+    text-align: left;
+    display: flex;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer  li {
+    display: flex;
+    margin-right: 20px; 
+}
+
+.footer-social a {
+    color: #ffffff;
+    padding-right: 0%;
+    text-decoration: underline;
+}
+
+.copyright{
+    font-style: italic;
+}
+
+/* howItWork.html css start */
+.sec1{
+    background-color: #F0F0F0;
+
+}
+
+.sec1 h1{
+    padding-top: 5px;
+}
+
+.step{
+    display: flex;
+    margin-left: 10px;
+}
+
+.step img{
+    margin-right: 35px;
+}
+
+.stepjustify {
+    display: flex;
+    margin-left: 24px;
+}
+
+.stepjustify p {
+    margin-right: auto; 
+    font-size: large;
+}
+
+.FAQ{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fffae7;
+}
+
+/*meal plan css*/
+table{
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 8px;
+    border:1px solid;
+    text-align: left;
+    font-family: sans-serif;
+    
+}
+
+tr:nth-child(even){
+    background-color: #F0F0F0;
+    color:#1e6d0c;
+
+}
+
+tr:nth-child(odd){
+    background-color: #5A3082;
+    color: #F0F0F0;
+}
+
+.weekly-table{
+    width:1100px;
+    height:400px;
+    padding-left: 50px;
+    display:flex;
+
+}
+
+.weekly-image{
+    float:left;
+}
+
+.monthly-image{
+    float:right;
+}
+
+.monthly-table{
+    width:1100px;
+    height:400px;
+    padding-right:25px;
+    display:flex;
+}
+
+.delivery{
+    display:flex;
+}
+
+.delivery-text{
+    background-color: #fffae7;
+    font-size:170%;
+    color:#417d33;
+    margin-left: 60px;
+    min-width: 73%;
+}
+
+.delivery-list{
+    list-style-type: none;
+}
+
+.wongyong{
+    display:flex;
+}
+
+.eitherway{
+    float:right;
+
+}
+
+.active{
+    background-color: aliceblue;
+}
+
+/* product.css */
+#berry{
+    margin-left: 6.5px;
+}
+
+#mango{
+    margin-left:-30px;
+}
+
+#passion{
+    margin-left:50px;
+}
+.product{
+    background-image: url(Image/background3.jpg);
+}
+
+.card {
+    box-shadow: 5px 10px 15px  rgba(0, 0, 0, 0.5);
+    min-width: 250px;
+    text-align: center;
+    margin:auto;
+    font-family: arial;
+    padding: auto;
+    background-color:#fffae7;
+
+}
+
+.card h1{
+    text-align:right;
+}
+
+.yogurt{
+    margin:auto;
+    display: flex;
+}
+
+.juice{
+    margin:auto;
+    display: flex;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #F6F6F6;
+    background-color:#417d33;
+    border-bottom: black 5px solid;
+    border-top: black 5px solid;
+    text-align: center;
+    cursor:cell;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
+
+.nutrition li{
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+/* us.css */
+.box1{
+    background-color:aliceblue;
+    display: flex;
+    max-width: 100%;
+}
+
+#company-image{
+  padding-left: 47%;
+  padding-top: 0.1cm;
+}
+
+.review{
+    padding-left: 20px;
+    overflow:auto;
+}
+.photo{
+    float:left;
+    padding-right:2em;
+    padding-bottom: 2em;
+    margin-left: 30px;
+}
+.box2{
+    background-color: #fffae7;
+    max-width: 65%;
+    box-shadow: #224819 2px 10px 8px ;
+}
+.box{
+    display: flex;
+    min-width: 60%;
+}
+
+.box3{
+    margin-left: 10%;
+    background-color: #fffae7;
+    min-width: 25%;
+    box-shadow: #224819 3px 2px 8px;
+    text-align: center;
+}
+form{
+    padding: 10%;
+}
+#mySubmit{
+    margin-left: -65%;
+}
